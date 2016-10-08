@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"Enter your resource definitions after the PALMOS_RESOURCE_FILE definition and before the /PALMOS_RESOURCE_FILE. Anything "
+		"within this block, COMMENT_TEXT, will be ignored."
+	</COMMENT_TEXT>
+
+	<FORM_RESOURCE RESOURCE_ID="1100" COMMENT="Not Private">
+		<FORM_ID> 1100 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 0 </LEFT>
+			<TOP> 0 </TOP>
+			<WIDTH> 160 </WIDTH>
+			<HEIGHT> 160 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> FALSE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 0 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE_ICON> FALSE </TITLE_ICON>
+		<TITLE_BAR_FOCUSABLE> FALSE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "Not Private" </TEXT>
+			</FORM_TITLE>
+			<FORM_CHECKBOX>
+				<ID> 1020 </ID>
+				<BOUNDS>
+					<LEFT> 72 </LEFT>
+					<TOP> 1 </TOP>
+					<WIDTH> 88 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Enable Radimayd" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1030 </ID>
+				<BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 117 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Switch on Radio at Reset" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_BUTTON>
+				<ID> 1010 </ID>
+				<BOUNDS>
+					<LEFT> 3 </LEFT>
+					<TOP> 145 </TOP>
+					<WIDTH> 27 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Done" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_GRAFFITI_STATE>
+				<LOCATION>
+					<X> 149 </X>
+					<Y> 146 </Y>
+				</LOCATION>
+			</FORM_GRAFFITI_STATE>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 2 </X>
+					<Y> 141 </Y>
+				</LOCATION>
+				<BITMAP_ID> 1000 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BUTTON>
+				<ID> 1110 </ID>
+				<BOUNDS>
+					<LEFT> 112 </LEFT>
+					<TOP> 145 </TOP>
+					<WIDTH> 30 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> FALSE </ENABLED>
+				<TEXT> "Test" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LABEL>
+				<ID> 1305 </ID>
+				<LOCATION>
+					<X> 6 </X>
+					<Y> 116 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Last Reset: 21:12 21/8/08        " </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1306 </ID>
+				<LOCATION>
+					<X> 19 </X>
+					<Y> 128 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Uptime: 0d 12h 14m       " </TEXT>
+			</FORM_LABEL>
+			<FORM_LIST>
+				<ID> 1320 </ID>
+				<BOUNDS>
+					<LEFT> 92 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 64 </WIDTH>
+					<HEIGHT> 143 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 13 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "- None -" </TEXT>
+					<TEXT> "5-Way Up" </TEXT>
+					<TEXT> "5-Way Down" </TEXT>
+					<TEXT> "5-Way Left" </TEXT>
+					<TEXT> "5-Way Right" </TEXT>
+					<TEXT> "5-Way Center" </TEXT>
+					<TEXT> "Launch" </TEXT>
+					<TEXT> "Menu" </TEXT>
+					<TEXT> "Calendar" </TEXT>
+					<TEXT> "Messaging" </TEXT>
+					<TEXT> "Side Key" </TEXT>
+					<TEXT> "Vol-Up" </TEXT>
+					<TEXT> "Vol-Down" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LIST>
+				<ID> 1340 </ID>
+				<BOUNDS>
+					<LEFT> 92 </LEFT>
+					<TOP> 39 </TOP>
+					<WIDTH> 64 </WIDTH>
+					<HEIGHT> 55 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 5 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "- None -" </TEXT>
+					<TEXT> "Shift" </TEXT>
+					<TEXT> "Option" </TEXT>
+					<TEXT> "Double Tap" </TEXT>
+					<TEXT> "Keep-Pressed" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LABEL>
+				<ID> 1301 </ID>
+				<LOCATION>
+					<X> 6 </X>
+					<Y> 33 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Radio OFF With:" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1304 </ID>
+				<LOCATION>
+					<X> 17 </X>
+					<Y> 86 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Radio ON After:" </TEXT>
+			</FORM_LABEL>
+			<FORM_LIST>
+				<ID> 1360 </ID>
+				<BOUNDS>
+					<LEFT> 92 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 55 </WIDTH>
+					<HEIGHT> 143 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 13 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "5 minutes" </TEXT>
+					<TEXT> "10 minutes" </TEXT>
+					<TEXT> "15 minutes" </TEXT>
+					<TEXT> "30 minutes" </TEXT>
+					<TEXT> "45 minutes" </TEXT>
+					<TEXT> "1 hour" </TEXT>
+					<TEXT> "1.5 hours" </TEXT>
+					<TEXT> "2 hours" </TEXT>
+					<TEXT> "3 hours" </TEXT>
+					<TEXT> "4 hours" </TEXT>
+					<TEXT> "6 hours" </TEXT>
+					<TEXT> "8 hours" </TEXT>
+					<TEXT> "12 hours" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_CHECKBOX>
+				<ID> 1370 </ID>
+				<BOUNDS>
+					<LEFT> 15 </LEFT>
+					<TOP> 100 </TOP>
+					<WIDTH> 138 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Display Time Selection Popup" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_POPUP_TRIGGER>
+				<ID> 1350 </ID>
+				<BOUNDS>
+					<LEFT> 80 </LEFT>
+					<TOP> 86 </TOP>
+					<WIDTH> 42 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "Popup" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 1350 </CONTROL_ID>
+				<LIST_ID> 1360 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LABEL>
+				<ID> 1302 </ID>
+				<LOCATION>
+					<X> 18 </X>
+					<Y> 46 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Activation Key:" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1303 </ID>
+				<LOCATION>
+					<X> 35 </X>
+					<Y> 59 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "+ Modifier:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER>
+				<ID> 1310 </ID>
+				<BOUNDS>
+					<LEFT> 80 </LEFT>
+					<TOP> 46 </TOP>
+					<WIDTH> 42 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "Popup" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 1310 </CONTROL_ID>
+				<LIST_ID> 1320 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_POPUP_TRIGGER>
+				<ID> 1330 </ID>
+				<BOUNDS>
+					<LEFT> 80 </LEFT>
+					<TOP> 59 </TOP>
+					<WIDTH> 42 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "Popup" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 1330 </CONTROL_ID>
+				<LIST_ID> 1340 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_CHECKBOX>
+				<ID> 1380 </ID>
+				<BOUNDS>
+					<LEFT> 15 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 134 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Trap Manual Phone On/ Off" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="1300" COMMENT="Private">
+		<FORM_ID> 1300 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 0 </LEFT>
+			<TOP> 0 </TOP>
+			<WIDTH> 160 </WIDTH>
+			<HEIGHT> 160 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> FALSE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 0 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE_ICON> FALSE </TITLE_ICON>
+		<TITLE_BAR_FOCUSABLE> FALSE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "Private" </TEXT>
+			</FORM_TITLE>
+			<FORM_BUTTON>
+				<ID> 1010 </ID>
+				<BOUNDS>
+					<LEFT> 3 </LEFT>
+					<TOP> 145 </TOP>
+					<WIDTH> 27 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Done" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_GRAFFITI_STATE>
+				<LOCATION>
+					<X> 149 </X>
+					<Y> 146 </Y>
+				</LOCATION>
+			</FORM_GRAFFITI_STATE>
+			<FORM_CHECKBOX>
+				<ID> 1020 </ID>
+				<BOUNDS>
+					<LEFT> 72 </LEFT>
+					<TOP> 1 </TOP>
+					<WIDTH> 88 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Enable Radimayd" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1030 </ID>
+				<BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 17 </TOP>
+					<WIDTH> 117 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Switch on Radio at Reset" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_LIST>
+				<ID> 1080 </ID>
+				<BOUNDS>
+					<LEFT> 7 </LEFT>
+					<TOP> 105 </TOP>
+					<WIDTH> 108 </WIDTH>
+					<HEIGHT> 33 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 3 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_BUTTON>
+				<ID> 1100 </ID>
+				<BOUNDS>
+					<LEFT> 122 </LEFT>
+					<TOP> 105 </TOP>
+					<WIDTH> 32 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "New" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_FIELD>
+				<ID> 1040 </ID>
+				<BOUNDS>
+					<LEFT> 50 </LEFT>
+					<TOP> 32 </TOP>
+					<WIDTH> 104 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> TRUE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> TRUE </NUMERIC>
+				<MAX_CHARS> 21 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_LABEL>
+				<ID> 1201 </ID>
+				<LOCATION>
+					<X> 6 </X>
+					<Y> 32 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "IMSI:" </TEXT>
+			</FORM_LABEL>
+			<FORM_BUTTON>
+				<ID> 1050 </ID>
+				<BOUNDS>
+					<LEFT> 30 </LEFT>
+					<TOP> 32 </TOP>
+					<WIDTH> 16 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "\x04" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> SYMBOL_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LABEL>
+				<ID> 1204 </ID>
+				<LOCATION>
+					<X> 6 </X>
+					<Y> 92 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Notify Phone Numbers:" </TEXT>
+			</FORM_LABEL>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 2 </X>
+					<Y> 141 </Y>
+				</LOCATION>
+				<BITMAP_ID> 1000 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_FIELD>
+				<ID> 1060 </ID>
+				<BOUNDS>
+					<LEFT> 50 </LEFT>
+					<TOP> 47 </TOP>
+					<WIDTH> 104 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 24 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_FIELD>
+				<ID> 1070 </ID>
+				<BOUNDS>
+					<LEFT> 50 </LEFT>
+					<TOP> 62 </TOP>
+					<WIDTH> 104 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 24 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_LABEL>
+				<ID> 1202 </ID>
+				<LOCATION>
+					<X> 6 </X>
+					<Y> 47 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Lock PWD:" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1203 </ID>
+				<LOCATION>
+					<X> 6 </X>
+					<Y> 62 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Lock MSG:" </TEXT>
+			</FORM_LABEL>
+			<FORM_LIST>
+				<ID> 1090 </ID>
+				<BOUNDS>
+					<LEFT> 112 </LEFT>
+					<TOP> 94 </TOP>
+					<WIDTH> 42 </WIDTH>
+					<HEIGHT> 44 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 4 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "Cancel" </TEXT>
+					<TEXT> "Edit" </TEXT>
+					<TEXT> "Test SMS" </TEXT>
+					<TEXT> "Delete" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_BUTTON>
+				<ID> 1110 </ID>
+				<BOUNDS>
+					<LEFT> 112 </LEFT>
+					<TOP> 145 </TOP>
+					<WIDTH> 30 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> FALSE </ENABLED>
+				<TEXT> "Test" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_FIELD>
+				<ID> 1075 </ID>
+				<BOUNDS>
+					<LEFT> 50 </LEFT>
+					<TOP> 77 </TOP>
+					<WIDTH> 104 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 24 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_BUTTON>
+				<ID> 1077 </ID>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 77 </TOP>
+					<WIDTH> 40 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Call Fwd:" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>
